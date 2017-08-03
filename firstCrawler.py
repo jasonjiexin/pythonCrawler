@@ -1,4 +1,4 @@
-#µ¼ÈëÅÀ³æ»ù±¾Ä£¿éurllib
+ï»¿#å¯¼å…¥çˆ¬è™«åŸºæœ¬æ¨¡å—urllib
 import urllib2
 file = urllib2.urlopen("http://www.baidu.com")
 data = file.read()
@@ -6,7 +6,7 @@ dataline = file.readline()
 print(data)
 print(dataline)
 
-#Ğ´Èë±¾µØhtml
-fhandle = open("ÎÄ¼şurl","wb")
+#å†™å…¥æœ¬åœ°html
+fhandle = open("æ–‡ä»¶url","wb")
 fhandle.write(data)
 fhandle.close()
